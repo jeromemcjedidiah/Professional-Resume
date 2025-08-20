@@ -1,0 +1,288 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Professional Resume</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+
+    body {
+      font-family: 'Times New Roman', Times, serif;
+      background-color: #ffffff;
+      color: #333;
+      font-size: 16px;
+      line-height: 1.45;
+      width: 210mm;
+      min-height: 290mm;
+      margin: 0 auto;
+      padding: 10mm 12mm;
+    }
+    .ejc { color: #003366; font-family: 'Times New Roman', Times, serif; font-size: 16px; }
+    .cjmj { font-size: 16px; }
+    .mutta { font-family: 'Times New Roman', Times, serif; font-size: 16px; color: #333; }
+
+    h1 { font-size: 24px; margin-bottom: 4px; color: #003366; }
+    h2 {
+      color: #003366;
+      font-size: 20px;
+      margin: 12px 0 6px;
+      border-bottom: 1px solid #ddd;
+      padding-bottom: 3px;
+      letter-spacing: 0.4px;
+    }
+
+    .top-section { display: flex; justify-content: space-between; align-items: flex-start; margin-bottom: 8px; padding-bottom: 6px; border-bottom: 1px solid #eee; }
+    .left-info { width: 58%; }
+    .right-info { width: 42%; font-size: 16px; }
+    .section { margin-bottom: 10px; }
+
+    ul { margin: 5px 0 5px 18px; list-style-type: none; padding-left: 0; }
+    li { margin-bottom: 3px; position: relative; padding-left: 10px; }
+    li:before { content: "•"; color: #003366; position: absolute; left: 0; font-size: 16px; }
+
+    p { margin: 4px 0; }
+    a { color: #003366; text-decoration: none; font-weight: 500; }
+    a:hover { text-decoration: underline; }
+
+    .icon-link { display: flex; align-items: center; gap: 5px; margin: 2px 0; }
+    .icon-link svg { width: 13px; height: 13px; vertical-align: middle; }
+    .linkedin-icon { width: 15px; height: 15px; margin-right: 5px; }
+
+    strong { font-weight: 600; }
+    em { color: #666; font-style: normal; font-size: 16px; }
+
+    .job-title { display: flex; justify-content: space-between; margin-bottom: 2px; }
+    .job-title strong { font-size: 18px; }
+
+    @page { size: A4; margin: 0; }
+    @media print {
+      body {
+        margin: 0;
+        padding: 10mm 12mm;
+        -webkit-print-color-adjust: exact;
+        print-color-adjust: exact;
+        width: 100%;
+        height: 100%;
+      }
+      a { text-decoration: none; }
+      .top-section { padding-bottom: 4px; margin-bottom: 4px; }
+      .section { margin-bottom: 9px; }
+    }
+  </style>
+</head>
+
+<body>
+<div class="top-section">
+  <div class="left-info">
+    <h1>YOUR NAME</h1>
+    
+   <!-- Course Details: Specify the course you are currently pursuing -->
+    
+    <p class="cjmj"><strong>Artificial Intelligence & Data Science Undergraduate</strong></p> 
+  </div>
+  <div class="right-info">
+
+    <div class="icon-link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#003366" width="20" height="20"><path d="M20 4H4c-1.1 0-2 .9-2 2v12c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 2v.01L12 13 4 6.01V6h16zM4 18V8l8 5 8-5v10H4z"/></svg>
+      
+      <!-- Enter your Mail ID by replacing "#" in the href -->
+
+      <a href="#"><pre class="ejc">  cjmj@gmail.com</pre></a>
+    </div>
+
+    <div class="icon-link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#003366" width="20" height="20"><path d="M6.62 10.79a15.053 15.053 0 006.59 6.59l2.2-2.2c.27-.27.67-.36 1.02-.24 1.12.37 2.33.57 3.57.57.55 0 1 .45 1 1v3.5c0 .55-.45 1-1 1C10.16 22 2 13.84 2 3.5 2 2.95 2.45 2.5 3 2.5H6.5c.55 0 1 .45 1 1 0 1.24.2 2.45.57 3.57.11.35.03.74-.25 1.02l-2.2 2.2z"/></svg>
+     
+      <!--Mobile Number-->
+     
+      <span> <pre class="mutta"> +91 12345 67890</pre></span>
+    </div>
+
+    <div class="icon-link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#003366" width="20" height="20"><path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5a2.5 2.5 0 110-5 2.5 2.5 0 010 5z"/></svg>
+      
+      <!--For eg: Salem, Tamil Nadu, India - 637 406-->
+     
+      <span><pre class="mutta"> District, State, Country – Postalcode</pre></span>
+    </div>
+
+    <div class="icon-link">
+      <svg class="linkedin-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="20" height="20"><path fill="#0A66C2" d="M20.5 2h-17A1.5 1.5 0 002 3.5v17A1.5 1.5 0 003.5 22h17a1.5 1.5 0 001.5-1.5v-17A1.5 1.5 0 0020.5 2zM8 19H5v-9h3zM6.5 8.25A1.75 1.75 0 118.3 6.5a1.78 1.78 0 01-1.8 1.75zM19 19h-3v-4.74c0-1.42-.6-1.93-1.38-1.93A1.74 1.74 0 0013 14.19V19h-3v-9h2.9v1.3a3.11 3.11 0 012.7-1.4c1.55 0 3.36.86 3.36 3.66z"/></svg>
+      
+      <!-- Link to your Linkedin profile -->
+      
+      <!-- Enter your Linkedin profile link by replacing "#" in the href -->
+
+      <a href="#" target="_blank">linkedin.com/in/ejc</a>
+    </div>
+
+    <div class="icon-link">
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#000000" width="20" height="20"><path d="M12 0a12 12 0 00-3.8 23.4c.6.1.8-.3.8-.6v-2.2c-3.3.7-4-1.6-4-1.6-.6-1.4-1.4-1.8-1.4-1.8-1-.7.1-.7.1-.7 1.2.1 1.8 1.2 1.8 1.2 1 1.8 2.8 1.3 3.5 1 .1-.8.4-1.3.7-1.6-2.7-.3-5.5-1.3-5.5-6 0-1.2.5-2.3 1.3-3.1-.1-.3-.6-1.6.1-3.2 0 0 1-.4 3.3 1.2a11.5 11.5 0 016 0c2.3-1.6 3.3-1.2 3.3-1.2.7 1.6.2 2.9.1 3.2.8.8 1.3 1.9 1.3 3.1 0 4.6-3.3 5.5-5.9 5.5-6 .2-.5.8-1.6.2-3.2 0 0 1.1-.4 3.4 1.3a11.8 11.8 0 013.1 0c2.3-1.7 3.4-1.3 3.4-1.3.6 1.6.2 2.9.1 3.2.8.8 1.3 1.9 1.3 3.1 0 4.6-3.3 5.5-5.9 5.5-6 .2-.5.8-1.6.2-3.2 0 0 1.1-.4 3.4 1.3a12 12 0 00-3.7-1.3z"/></svg>
+                             
+      <!-- Link to your GitHub profile -->
+
+      <!-- Enter your GitHub profile link by replacing "#" in the href -->
+
+      <a href="#" target="_blank"><pre class="ejc"> github.com/cjmj</pre></a>
+    </div>
+  </div>
+</div>
+
+<div class="section">
+  <h2>Career Objective</h2>
+
+   <!-- Career Objective: You can also refer to the one provided in my resume -->
+
+  <p>Driven AI & Data Science student with skills in programming, data analysis, and web development. Passionate about building impactful, real-world solutions through technology.</p>
+</div>
+
+<div class="section">
+  <h2>Education</h2>
+  <div class="job-title">
+
+   <!-- Degree: Bachelor of Technology | Department: Your Specialization -->
+
+    <strong>Bachelor of Technology (B.Tech) in Artificial Intelligence & Data Science</strong>
+    
+    <!--Year of Passing-->
+    <em>2022 – 2026</em>
+  
+  </div>
+
+  <!-- Education status: Currently pursuing or completed college -->
+  
+  <p>ABC Engineering College | Cumulative Grade Point Average (CGPA): 7.5</p>
+
+  <div class="job-title">
+    <strong>Higher Secondary (12th)</strong>
+    <em>2020 – 2022</em>
+  </div>
+ 
+  <!-- Higher Secondary Education: School Name & Grade -->
+
+  <p>ABC Higher Secondary School, place | 62%</p>
+
+  <div class="job-title">
+    <strong>Secondary (10th)</strong>
+    <em>2019 – 2020</em>
+  </div>
+  
+  <!-- SSLC (10th Grade) - School & Grade -->
+
+  <p>ABC Higher Secondary School, place | 75%</p>
+</div>
+
+<div class="section">
+  <h2>Technical Skills</h2>
+
+  <!-- List your technical skills here (the ones shown are sample examples) -->
+
+  <ul>
+    <li><strong>Programming Languages:</strong> Java, Python, JavaScript</li>
+    <li><strong>Web Technologies:</strong> HTML5, CSS3, JavaScript, React</li>
+    <li><strong>Data Science:</strong> Pandas, NumPy, TensorFlow</li>
+    <li><strong>Tools & Platforms:</strong> GitHub, VS Code, Eclipse, Jupyter Notebook, Azure, AWS</li>
+    <li><strong>Databases:</strong> MySQL, MongoDB</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Soft Skills</h2>
+
+  <!-- List your soft skills here (the ones shown are sample examples) -->
+
+  <ul>
+    <li>Problem-Solving</li>
+    <li>Team Collaboration</li>
+    <li>Effective Communication</li>
+    <li>Adaptability</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Experience</h2>
+  <div class="job-title">
+    
+    <!-- Internship Organization / Company Name -->
+
+    <strong>Front-End Design Intern</strong>
+    
+    <em>Dec 2024 – Jan 2025</em>
+  </div>
+  <p>Name of the Organization, Place</p>
+  <ul>
+
+   <!-- Internship Description: Briefly describe your role, responsibilities, and contributions -->
+
+    <li>Developed responsive interfaces with full cross-browser compatibility using HTML5, CSS3, and JavaScript</li>
+    <li>Enhanced UI consistency across 3+ projects, improving user engagement and reducing bounce rate</li>
+    <li>Participated in peer code reviews to ensure high-quality standards and maintainability</li>
+  </ul>
+  <br><br><br><br><br>
+    
+    <!-- Using a break tag here to force content onto the next page -->
+
+  <div class="job-title">
+
+    <!-- Internship Organization / Company Name -->
+     
+    <strong>System Administration – Short-Term Training</strong>
+    <em>Nov 2024</em>
+  </div>
+  <p>Name of the Organization, Place</p>
+  
+  <!-- Internship Description: Briefly describe your role, responsibilities, and contributions -->
+
+  <ul>
+    <li>Configured Linux servers and practiced network diagnostics in real-time scenarios</li>
+    <li>Completed hands-on Linux training focused on system setup, user management, and file permission configuration</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Projects</h2>
+  <div class="job-title">
+  
+    <!-- Project name (example shown here is one of my completed projects) -->
+
+    <strong>Crop Recommendation System</strong>
+    <em>Nov 2024 – Dec 2024</em>
+  </div>
+  <ul>
+    <li>Built an ML model with 85% accuracy to suggest optimal crops based on soil and climate data</li>
+    <li>Compared Decision Tree and Random Forest models using precision and recall metrics</li>
+    <li>Implemented an end-to-end pipeline using Python, Pandas, Scikit-learn, and Matplotlib</li>
+  </ul>
+</div>
+
+<div class="section">
+
+   <!-- List your certificates here (the ones shown are sample examples) -->
+
+ <h2>Certifications & Achievements</h2>
+  <ul>
+    <li><strong>NPTEL:</strong> Distributed Systems, Cloud, IoT, Edge & Machine Learning (IIT Kanpur)</li>
+    <li><strong>Salesforce Trailhead:</strong> Earned 70+ badges across multiple domains</li>
+    <li><strong>ICT Academy:</strong> Certified in Microsoft, AWS, UiPath & MongoDB</li>
+    <li><strong>Hackathon – India 2025:</strong> National-level AI & Web3 Hackathon Participant</li>
+    <li><strong>Workshop:</strong> HTML & CSS by Stack-Queue (Sep 2023)</li>
+  </ul>
+</div>
+
+<div class="section">
+  <h2>Languages</h2>
+  
+  <!-- List the languages you know (the ones shown are sample examples) -->
+
+  <ul>
+    <li><strong>English:</strong> Professional Proficiency</li>
+    <li><strong>Tamil:</strong> Native Proficiency</li>
+  </ul>
+</div>
+</body>
+</html>
